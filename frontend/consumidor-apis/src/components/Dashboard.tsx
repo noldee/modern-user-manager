@@ -11,7 +11,7 @@ import {
   LogOut,
 } from "lucide-react";
 
-const API = "http://localhost:4040/user";
+const API = "https://modern-user-manager.onrender.com/user";
 
 export const Dashboard = ({ onLogout }: { onLogout: () => void }) => {
   const [users, setUsers] = useState<any[]>([]);
